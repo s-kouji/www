@@ -5,9 +5,9 @@
 
 .owl-theme .owl-controls{
 	position: fixed;
-	top:55px;
+	top:35px;
 	text-align: center;
-	z-index: 1000000;
+	z-index: 10;
 }
 
 /* Styling Next and Prev buttons */
@@ -17,7 +17,7 @@
 	display: inline-block;
 	zoom: 1;
 	*display: inline;/*IE7 life-saver */
-	margin: 5px;
+	margin: 1px;
 	padding: 3px 10px;
 	font-size: 12px;
 	-webkit-border-radius: 30px;
@@ -44,15 +44,11 @@
 }
 .owl-theme .owl-controls .owl-page span{
 	display: block;
-	width: 30px;
-	height: 30px;
-	margin: 1px 20px;
+	width: 256px;
+	height: 10px;
 	filter: Alpha(Opacity=50);/*IE7 fix*/
 	opacity: 0.5;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	border-radius: 20px;
-	/*background: #869791;*/
+	background: #869791;
 }
 
 .owl-theme .owl-controls .owl-page.active span,
