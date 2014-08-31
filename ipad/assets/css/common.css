@@ -159,9 +159,15 @@ div.col2{
 	display: none;
 }
 
+#top-navigation-bar{
+	margin-top:40px;
+}
+
+/* content */
 .mainfunction{
 	padding-top: 50px;
 }
+
 /*css clear*/
 div.cssclear{
     clear: both;
