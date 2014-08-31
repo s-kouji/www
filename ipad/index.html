@@ -24,6 +24,11 @@
         <div class="navbar-inner">
           <div class="container">
             <img src="assets/img/test.jpg" width="38px" height="38px" style="position:fixed; left:20px; top:1px;" id="top-icon">
+            <!-- content push wrapper -->
+            <!-- Top Navigation -->
+            <div id="st-trigger-effects">
+              <button data-effect="st-effect-1" class="slideNavigation-button">Slide in on top</button>
+            </div>
             <button class="md-trigger" data-modal="modal-12" id="comment_submit">投稿</button>
           </div>
         </div>
@@ -420,14 +425,16 @@
     <script type="text/javascript">
       $('.slideNavigation-button').on('click', function(event){
           //イベントオブジェクトからマウスの各座標を取得
-          var button_position = jQuery(this).offset();
-          var top_icon_position = jQuery("#top-icon").offset();
+          var scrollTop_position = $(window).scrollTop();
+          //$("#result").text($(window).scrollTop() + 'px');
+          //var button_position = $(window).scrollTop();
+          //var top_icon_position = $("#top-icon").offset();
 
           //座標をid名：resultに表示
-          //console.log(button_position.top);
-          console.log(top_icon_position.top);
+          //console.log(scrollTop_position);
+          //console.log(top_icon_position.top);
 
-          $("#top-navigation-bar").css("margin-top",top_icon_position.top+40);
+          //$("#top-navigation-bar").css("margin-top",scrollTop_position+40);
       });
     </script>
 

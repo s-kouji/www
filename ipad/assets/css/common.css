@@ -159,8 +159,9 @@ div.col2{
 	display: none;
 }
 
-#top-navigation-bar{
-	margin-top:40px;
+#st-trigger-effects{
+	margin-left: 100px;
+	display: inline-block;
 }
 
 /* content */

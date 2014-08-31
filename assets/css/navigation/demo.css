@@ -11,20 +11,16 @@
 }
 
 body {
-	background: #444;
-	color: #48a770;
 	font-weight: 300;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
 }
 
 a {
 	text-decoration: none;
-	color: #48a770;
 	outline: none;
 }
 
 a:hover, a:focus {
-	color: #2c774b;
 	outline: none;
 }
 
@@ -153,7 +149,7 @@ button {
 	text-transform: uppercase;
 	cursor: pointer;
 	display: inline-block;
-	margin: 3px 2px;
+	margin: 2px 1px;
 	border-radius: 2px;
 }
 

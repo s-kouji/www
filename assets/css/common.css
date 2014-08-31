@@ -159,9 +159,16 @@ div.col2{
 	display: none;
 }
 
+#st-trigger-effects{
+	margin-left: 100px;
+	display: inline-block;
+}
+
+/* content */
 .mainfunction{
 	padding-top: 50px;
 }
+
 /*css clear*/
 div.cssclear{
     clear: both;
