@@ -1,0 +1,365 @@
+
+.col_4LL {
+    padding-left:4.0%;
+    padding-right:4.0%;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    width:17%;
+    float:left;
+    word-wrap:break-all;
+}
+.col_4LR {
+    padding-left:4.0%;
+    padding-right:4.0%;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    width:17%;
+    float:left;
+    word-wrap:break-all;
+}
+.col_4RL {
+    padding-left:4.0%;
+    padding-right:4.0%;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    width:17%;
+    float:left;
+    word-wrap:break-all;
+}
+.col_4RR {
+    padding-left:4.0%;
+    padding-right:4.0%;
+    padding-top:0.5%;
+    padding-bottom:0.5%;
+    width:17%;
+    float:left;
+    word-wrap:break-all;
+}
+.col_3L {
+    width:30%;
+    float:left;
+    word-wrap:break-all;
+}
+.col_3R {
+    width:65%;
+    float:left;
+    word-wrap:break-all;
+    padding-left: 5%;
+}
+.col_3sL {
+    width:65%;
+    float:left;
+    word-wrap:break-all;
+}
+.col_3lR {
+    width:30%;
+    float:left;
+    word-wrap:break-all;
+    padding-left: 5%;
+}
+div.global_nav{
+	position: fixed;
+	z-index: 101;
+	top: 38px;
+	left: 0px;
+	width: 100%;
+	border-bottom: solid 1px #eee;
+	border-top: solid 1px #eee;
+	box-shadow: 0px 3px 1px -1px rgba(0,0,0,0.3);
+  	-webkit-box-shadow: 0px 3px 1px -1px rgba(0,0,0,0.3);
+  	-moz-box-shadow: 0px 3px 1px -1px rgba(0,0,0,0.3);
+}
+div.global_nav_on{
+	position: fixed;
+	z-index: 101;
+	top: 38px;
+	left: 0px;
+	width: 100%;
+	border-bottom: solid 1px #eee;
+	border-top: solid 1px #eee;
+	box-shadow: 0px 3px 1px -1px rgba(0,0,0,0.3);
+  	-webkit-box-shadow: 0px 3px 1px -1px rgba(0,0,0,0.3);
+  	-moz-box-shadow: 0px 3px 1px -1px rgba(0,0,0,0.3);
+}
+.global_nav_on .col_4LL{
+	background: transparent !important;
+}
+div.titleBar{
+	position: fixed;
+	z-index: 101;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 38px;
+	background-color: #2ea7e0;
+}
+div.leaf_button{
+	position: fixed;
+	z-index: 10002;
+	top: 5px;
+	left: 280px;
+}
+
+div.ranking_content{
+	width: 98%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div.ranking_content_box{
+	padding: 10px;
+	border: 1px solid #47a3da;
+	margin-bottom: 15px;
+	background: #fcfcfc;
+}
+
+div.content{
+	width: 98%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div.content_box{
+	padding: 10px;
+	border: 1px solid #47a3da;
+	margin-bottom: 15px;
+	background: #fcfcfc;
+}
+
+div.answer_content{
+	width: 98%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div.answer_content_box{
+	padding: 10px;
+	border: 1px solid #47a3da;
+	margin-bottom: 15px;
+}
+
+div.answer_content_list{
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-bottom: 15px;
+}
+
+div.user_content_box{
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+div.col2{
+	width: 48%;
+	padding-top: 5px;
+	padding-left: 1%;
+	padding-right: 1%;
+	float:left;
+    word-wrap:break-all;
+}
+
+div.col_icon{
+	width: 20%;
+	float:left;
+    word-wrap:break-all;
+}
+
+div.col_situation{
+	width: 75%;
+	margin-left: 5%;
+	float:left;
+    word-wrap:break-all;
+}
+
+a#answer{
+	border: solid 1px #888;
+	color: #555;
+	padding: 3px 6px 3px 6px;
+	margin-top: 10px;
+	background: #fff;
+}
+div.answer{
+	margin-top: 5px;
+}
+.leaf-button{
+	border: solid 1px #888;
+	color: #555;
+	padding: 3px 6px 3px 6px;
+	background: #fff;
+}
+.meat-button{
+	border: solid 1px #888;
+	color: #555;
+	margin-left: 10px;
+	background: #fff;
+	padding: 3px 6px 3px 6px;
+}
+
+div.ans_action_box{
+	border-top: solid 1px #eee;
+	padding-top: 5px;
+	margin-top: 5px;
+}
+
+div.evaluation{
+	text-align: right;
+	margin-top: 5px;
+}
+
+div.md-modal{
+	background-color: white;
+}
+div.md-content{
+	color: #555;
+}
+#comment-text{
+	height: 210px;
+	width: 270px;
+}
+.md-trigger{
+	float: right;
+	width: 75px;
+	height: 35px;
+	margin-right: 2px;
+	margin-top: 2px;
+	font-size: 14px;
+}
+.page_title{
+	font-weight: bold;
+	font-size: 20px;
+	font-family: serif;
+	color: #555;
+	margin-bottom: 5px;
+}
+
+div.best_answer{
+	border-top: solid 1px #ccc;
+	color: #555;
+	width: 270px;
+}
+
+div.thread_title{
+	font-weight: bold;
+	font-size: 18px;
+	color: #555;
+}
+
+div.user-info{
+	font-size: 18;
+	font-weight: bold;
+	color: #555;
+}
+
+/* balloon-1 bottom */
+.balloon-1-bottom {
+	position: relative;
+	left: 33px;
+	display: inline-block;
+	padding: 2px 7px 2px 7px;
+	width: auto;
+	color: #19283C;
+	text-align: center;
+	background: #ffffff;
+	border: 3px solid #47a3da;
+	z-index: 0;
+	top: -40px;
+}
+.balloon-1-bottom:before {
+	content: "";
+	position: absolute;
+	bottom: -6px; left: 60%;
+	margin-left: -9px;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 6px 6px 0 6px;
+	border-color: #ffffff transparent transparent transparent;
+	z-index: 0;
+}
+.balloon-1-bottom:after {
+	content: "";
+	position: absolute;
+	bottom: -10px; left: 60%;
+	margin-left: -10px;
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 7px 7px 0 7px;
+	border-color: #47a3da transparent transparent transparent;
+	z-index: -1;
+}
+.arrow_box {
+	position: relative;
+	background: #fff;
+	border: 3px solid #47a3da;
+	padding: 2px 6px;
+	border-radius: 5px;
+	width: 40px;
+	max-width: 40px;
+	min-width: 40px;
+	margin-left: 3px;
+}
+.arrow_box:after, .arrow_box:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 40px;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #fff;
+	border-width: 3px;
+	margin-top: -3px;
+}
+.arrow_box:before {
+	border-color: rgba(71, 163, 218, 0);
+	border-right-color: #47a3da;
+	border-width: 7px;
+	margin-top: -7px;
+}
+
+#soushoku_submit{
+	margin-right: 30px;
+}
+
+div.history{
+	border-top: solid 1px #ccc;
+	margin-top: 10px;
+	padding-top: 5px;
+}
+p.history{
+	font-size: 18;
+	font-weight: bold;
+	color: #555;
+	margin: 5px;
+}
+
+.history_content_box{
+	padding: 10px;
+	border: 1px solid #ddd;
+	margin-bottom: 15px;
+	background: #fcfcfc;
+}
+.owl-item{
+	height: 430px;
+	overflow:auto;
+	-webkit-overflow-scrolling:touch;
+}
+.mainfunction{
+	padding-top: 100px;
+}
+.favorite_button{
+	float: right;
+	width: 25px;
+	height: 25px;
+}
+
+/*css clear*/
+div.cssclear{
+    clear: both;
+}
